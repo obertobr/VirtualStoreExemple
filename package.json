@@ -1,0 +1,47 @@
+{
+  "name": "minimalist-3d-arts",
+  "private": true,
+  "description": "Alguns podem pensar que é apenas uma loja, mas é muito mais que isso, é uma realce para sua vida, nossas artes faram você mudar totalmente o que você entende com o sentido da vida.",
+  "version": "0.1.0",
+  "author": "Rafael Eduardo Azzi Lopes <real.azzi@gmail.com>",
+  "dependencies": {
+    "gatsby": "^4.15.1",
+    "gatsby-plugin-gatsby-cloud": "^4.15.0",
+    "gatsby-plugin-image": "^2.15.0",
+    "gatsby-plugin-manifest": "^4.15.1",
+    "gatsby-plugin-offline": "^5.15.1",
+    "gatsby-plugin-react-helmet": "^5.15.0",
+    "gatsby-plugin-sharp": "^4.15.0",
+    "gatsby-source-filesystem": "^4.15.0",
+    "gatsby-transformer-sharp": "^4.15.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-helmet": "^6.1.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
